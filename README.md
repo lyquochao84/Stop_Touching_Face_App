@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Stop Touching Face
+Stop Touching Face is a web application designed to help users avoid touching their faces. The app uses custom voice alerts to warn users whenever their hands come near their faces. Users can train the AI by clicking "start" and "next" to capture and learn their specific gestures. Once trained, the app actively monitors and warns users whenever they attempt to touch their face, promoting healthier habits and reducing the risk of transferring germs.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+- [Technologies](#technologies)
+- [Features](#features)
+- [Installation](#installation)
+- [Screenshot & Instructions](#screenshot)
 
-## Available Scripts
+## Technologies
+- React
+- Node.JS
+- Tensorflow
+- CSS
+- Howler.JS
 
-In the project directory, you can run:
+## Features
+* **Gesture Training**: Users can train the AI to recognize their specific gestures. By clicking "start" and "next," the app captures and learns the user's unique hand movements, ensuring accurate detection.
 
-### `npm start`
+* **Active Monitoring**: Once trained, the app continuously monitors the user's hand movements. It actively detects attempts to touch the face and issues real-time warnings to prevent contact.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* **Easy to Use Interface**: The application is designed with a user-friendly interface, making it simple for users to train the AI and receive alerts with minimal effort.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* **Real-Time Feedback**: The app provides immediate feedback whenever a face-touching gesture is detected.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Installation
+Follow these steps to clone the project from GitHub and open it with Visual Studio Code:
+1.  Install the Visual Studio Code (VSCode)
+2.  Clone The Repository:
+    - Open the terminal in VSCode
+    - Enter ```git clone https://github.com/lyquochao84/Stop_Touching_Face_App.git```
+3. Run the App:
+    - Install the Node.JS
+    - Install the Node Package Manager (npm)
+      - Open the project's terminal and enter ```npm install```
+    - Enter ```npm run start```
+- **NOTE**: Make sure you have a webcam 
+## Screenshot & Instructions
+![Main Page](https://github.com/user-attachments/assets/df03d697-4d6e-487a-8d97-6452ac2bb8ef)
